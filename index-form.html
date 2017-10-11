@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap模板</title>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   		<!--class="form-inline"水平排列-->
+		<form action="" class="form-inline">
+				<!--has-warning、has-success改变颜色-->
+			<div class="form-group has-success">
+				<!--sr-only 的作用是不显示label标签的内容 。-->
+				<!--control-label是需要配合上面div里的has-颜色使用的用来定义字体和边框的样式-->
+			<label for="" class="control-label sr-only">这是一个输入框</label>
+			<!--改变输入框大小 input-lg或 input-sm  分别是large和small的意思-->
+			<input type="text" class="form-control  input-sm " placeholder="这是一个输入框" />
+			</div>
+			
+			<div class="form-group has-warning">
+			<label for="" class="control-label" >这是一个下拉框</label>
+			<select name="" class="form-control">
+				<option value="">北京</option>
+				<option value="">北京2</option>
+				<option value="">北京3</option>
+				<option value="">北京4</option>
+				
+			</select>
+			</div>
+			
+			<div class="form-group">
+			<label for="">这是一个输入框</label>
+			<textarea name="" rows="10" cols="30" class="form-control"></textarea>
+			</div>
+		
+		
+		</form>
+
+		<!--最新版本的jQuery-->
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
